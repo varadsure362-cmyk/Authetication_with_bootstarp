@@ -1,0 +1,70 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+}
+
+/* Card Shadow */
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+/* Custom Button Color */
+.btn-custom {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #357abd;
+    color: #ffffff;
+}
+
+/* Link Hover Effect */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #357abd;
+    text-decoration: underline;
+}
+
+/* Card Header Color */
+.card-header {
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: 600;
+}
+
+/* Input Focus */
+.form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+/* Navbar Styling */
+.navbar-custom {
+    background-color: #4a90e2;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white !important;
+}
+
+/* Spacing below navbar */
+.main-content {
+    margin-top: 30px;
+}
