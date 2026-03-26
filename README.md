@@ -47,6 +47,4 @@ Authetication2/
 └── screenshots/
 ```
 
-## Screenshots
 
-Screenshots are available in the `screenshots/` folder.
